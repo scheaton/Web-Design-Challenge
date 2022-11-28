@@ -56,6 +56,12 @@
   .imageNav-area {
     height: 20rem;
   }
+
+  /* table header formatting on data.html */
+  .th {
+    font-weight: bold;
+    text-align: left;
+  }
   
   /* Adding media queries to show the drop-down, and hide the navbar 
      when the screen is small */
