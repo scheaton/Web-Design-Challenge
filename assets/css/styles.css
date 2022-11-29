@@ -28,9 +28,10 @@
   /* website background color and padding */
   .website-background {
     background-color: lightgray;
-    margin-top: 0px;
-    padding-top: 0px;
-    padding-top: 20px;
+    padding-top: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    min-height: 90vh;
   }
 
   /* header elements */
@@ -39,12 +40,21 @@
     font-weight: bold;
     font-size: xx-large;
     font-family: 'Times New Roman', Times, serif;
+    text-align: start;
   }
   h2 {
     color: teal;
     font-weight: bolder;
     font-size: x-large;
     font-family: 'Times New Roman', Times, serif;
+    text-align: start;
+  }
+  h3 {
+    color: teal;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
   }
   
   /* image elements */
@@ -52,16 +62,9 @@
     float: left;
     padding: 0 20px 20px 0;
    }
-
-  .imageNav-area {
-    height: 20rem;
-  }
-
-  /* table header formatting on data.html */
-  .th {
-    font-weight: bold;
-    text-align: left;
-  }
+   .current-visualization {
+    border: 2px solid teal;
+   }
   
   /* Adding media queries to show the drop-down, and hide the navbar 
      when the screen is small */
@@ -73,5 +76,8 @@
     .website-background {
       background-color: white;
       padding-top: 0px;
+      padding-left: 5px;
+      padding-right: 5px;
+      min-height: auto;
     }
   }
