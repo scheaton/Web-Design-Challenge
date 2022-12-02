@@ -4,7 +4,8 @@
 
 SUMMARY
 -------------------------
-
+The purpose of this project was to analyze how weather changes as latitude changes. To this end, Data from over 500 random cities was pulled from the <a href="https://openweathermap.org/api">OpenWeatherMap API</a>.
+After assembling the dataset, Matplotlib was used to plot various aspects of the weather vs. latitude. Chiefly: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
 
 MAX TEMPERATURE
 -------------------------
@@ -20,7 +21,7 @@ Even if it was granted that high latitudes have an apparent correlation with hig
 HUMIDITY
 -------------------------
 Thinking of the tropical countries of Central America or Southeast Asia, one might expect that latitudes closer to the equator would have much higher humidity. However, this plot shows that there is a very weak positive correlation, at best, between humidity and latitude (r < 0.3). Below is a possible psychological and scientific explanation.
-As shown on the <a href=" temp.html">max temperature visualization</a>, there is a strong correlation between latitude and temperature (further from the equator is generally colder). It may be that it is the combination of heat, humidity, and tropical weather, rather than hard statistics, that give tropical countries their humid reputation.
+As shown on the <a href="temp.html">max temperature visualization</a>, there is a strong correlation between latitude and temperature (further from the equator is generally colder). It may be that it is the combination of heat, humidity, and tropical weather, rather than hard statistics, that give tropical countries their humid reputation.
 Outside of the psychological explanation for the disparity between expectations and reality, it is important to note that the data gathered is for relative humidity rather than absolute humidity. Cold northern air can hold far less moisture than hot tropical air. This means that the same amount of absolute humidity will generally cause much higher relative humidity as the air is further north (colder).
 
 CLOUDINESS
